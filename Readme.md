@@ -24,5 +24,5 @@ This project is a comprehensive **Online Course Management System** built using 
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/online-course-mgmt.git
+   git clone https://github.com/Exonect-Django-Backend-Task/online-course-mgmt.git
    cd online-course-mgmt
