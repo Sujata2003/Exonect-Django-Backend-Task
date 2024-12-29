@@ -55,6 +55,7 @@ This project is a comprehensive **Online Course Management System** built using 
   ```
 
 4. Run Migrations
+
    ```bash
    python manage.py makemigrations
    python manage.py migrate
@@ -62,6 +63,7 @@ This project is a comprehensive **Online Course Management System** built using 
 5. Start the Development Server
    ```bash
    python manage.py runserver
+   
    ```
 ---
 ## API Documentation
@@ -89,10 +91,11 @@ This project is a comprehensive **Online Course Management System** built using 
       ```bash
       from courses.tasks import send_welcome_email
       send_welcome_email.delay('user@example.com')
+      
       ```
 
 ## Caching with Redis
 
-   -The cached_courses endpoint retrieves cached course data.
-   -Data is cached for 5 minutes to improve performance.
-   -The cache is automatically invalidated when a course is created, updated, or deleted.
+   - The cached_courses endpoint retrieves cached course data.
+   - Data is cached for 5 minutes to improve performance.
+   - The cache is automatically invalidated when a course is created, updated, or deleted.
