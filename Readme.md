@@ -89,7 +89,7 @@ This project is a comprehensive **Online Course Management System** built using 
       
       ```bash
       from courses.tasks import send_welcome_email
-      send_welcome_email.delay('user@example.com')
+      send_welcome_email.delay(user_id)
       
       ```
 
