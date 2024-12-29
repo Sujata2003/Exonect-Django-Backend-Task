@@ -30,17 +30,17 @@ This project is a comprehensive **Online Course Management System** built using 
 --
 ### Project Setup steps:
 1. Create and Activate a Virtual Environment
-    ```bash
+   ```bash
    python -m venv venv  
    venv\Scripts\activate
-    ```
+   ```
 
 2. Install Dependencies
-  ```bash
+   ```bash
    pip install -r requirements.txt
-  ```
+   ```
 3. Configure the Database
-- Update the DATABASES settings in settings.py with your PostgreSQL credentials.
+   - Update the DATABASES settings in settings.py with your PostgreSQL credentials.
    ```bash
       DATABASES = {
        'default': {
@@ -52,12 +52,12 @@ This project is a comprehensive **Online Course Management System** built using 
            'PORT': '5432',  # Port on which the database server is listening (default for PostgreSQL)
        }
    }
-  ```
+   ```
 4. Run Migrations
-  ```bash
+   ```bash
    python manage.py makemigrations
    python manage.py migrate
-  ```
+   ```
 
 5. Start the Development Server
    ```bash
