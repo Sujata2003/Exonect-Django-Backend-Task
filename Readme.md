@@ -42,24 +42,23 @@ This project is a comprehensive **Online Course Management System** built using 
 3. Configure the Database
 - Update the DATABASES settings in settings.py with your PostgreSQL credentials.
    ```bash
-   DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',  # Specify the database engine as PostgreSQL
-        'NAME': 'your_db',  # Name of the database
-        'USER': 'youruser',  # Database user
-        'PASSWORD': 'password',  # Password for the database user
-        'HOST': 'localhost',  # Host where the database server is running
-        'PORT': '5432',  # Port on which the database server is listening (default for PostgreSQL)
-    }
-}
+      DATABASES = {
+       'default': {
+           'ENGINE': 'django.db.backends.postgresql',  # Specify the database engine as PostgreSQL
+           'NAME': 'your_db',  # Name of the database
+           'USER': 'youruser',  # Database user
+           'PASSWORD': 'password',  # Password for the database user
+           'HOST': 'localhost',  # Host where the database server is running
+           'PORT': '5432',  # Port on which the database server is listening (default for PostgreSQL)
+       }
+   }
   ```
-
 4. Run Migrations
-
-   ```bash
+  ```bash
    python manage.py makemigrations
    python manage.py migrate
-   ```
+  ```
+
 5. Start the Development Server
    ```bash
    python manage.py runserver
