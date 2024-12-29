@@ -19,13 +19,13 @@ This project is a comprehensive **Online Course Management System** built using 
 - Python 3.9+
 - PostgreSQL
 - Redis
-- Virtualenv (optional but recommended)
+- Virtualenv
 
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Exonect-Django-Backend-Task/online-course-mgmt.git
-   cd online-course-mgmt
+   git clone https://github.com/Exonect-Django-Backend-Task/online_course.git
+   cd online_course
    ```
 --
 ### Project Setup steps:
